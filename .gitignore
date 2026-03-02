@@ -1,0 +1,5 @@
+.idea
+.venv
+/webapp/db/db-backup.json
+/webapp/__pycache__
+/ignored

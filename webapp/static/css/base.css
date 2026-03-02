@@ -1,0 +1,75 @@
+.navbar {
+    box-sizing: border-box;
+
+    background-color: #101010;
+    color: #eeeeee;
+
+    font-size: 24px;
+
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0.5em;
+
+    border: solid 1px black;
+
+    display: flex;
+    flex: row wrap;
+    gap: 1ch;
+}
+
+a.navbar-button {
+    color: #eeeeee;
+
+    font-size: 90%;
+
+    border: solid 1px #606060;
+    border-radius: 5px;
+
+    height: 1em;
+    width: auto;
+
+    padding: 0.15em;
+    padding-bottom: 0.25em;
+    margin: 0;
+
+    flex-grow: 0;
+}
+a.navbar-button {
+    text-decoration: none;
+}
+a.navbar-button:hover, button.search:hover {
+    background-color: black;
+    color: white;
+    border-color: #eeeeee;
+}
+
+input.search {
+    height: auto;
+    width: auto;
+
+    margin: 0;
+    padding: 0;
+
+    flex-grow: 1;
+}
+
+button.search {
+    background-color: inherit;
+    color: #eeeeee;
+
+    font-size: 80%;
+
+    border: solid 1px #606060;
+    border-radius: 5px;
+
+    width: 10ch;
+    height: 100%;
+
+    padding: 0.15em;
+    margin: 0;
+}

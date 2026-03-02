@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %} Settings {% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+{% endblock %}
+
+{% block body %}
+
+<div class="h-center v-flex" style="padding: 10px; padding-left: 25%; padding-right: 25%;">
+    <p id="p1">Setting 1:</p>
+    <p id="p2">Setting 2:</p>
+    <p id="p3">Setting 3:</p>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/settings.js') }}"></script>
+{% endblock %}

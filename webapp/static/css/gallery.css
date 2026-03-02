@@ -1,0 +1,147 @@
+
+.video-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+
+    margin: 10px;
+    padding: 0;
+}
+
+.video-preview-container {
+    color: white;
+    background-color: #161313;
+    width: 330px;
+    height: 230px;
+
+    padding: 5px;
+    margin: 0;
+
+    text-align: center;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+
+    border-radius: 5px;
+}
+
+img.preview {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p.no-margin {
+    margin: 0;
+}
+
+.player-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.tag-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-content: space-evenly;
+
+    padding: 5px;
+    gap: 5px;
+}
+
+.tag {
+    background-color: #101010;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.video-player {
+    color: white;
+    background-color: #161313;
+
+    padding: 5px;
+    margin: 0;
+
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.video-button-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.gallery-column {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+.post-container {
+    padding: 1rem;
+
+    background-color: #101010;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    padding-bottom: 100px;
+}
+
+button.score {
+    background-color: inherit;
+    color: #eeeeee;
+
+    font-size: 80%;
+
+    border: solid 1px #606060;
+    border-radius: 5px;
+
+    width: 5ch;
+    height: 5ch;
+
+    padding: 0.15rem;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+button.score:hover {
+    background-color: black;
+    color: white;
+    border-color: #eeeeee;
+}
+
+h3.score {
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    height:100%;
+    max-width: 100%;
+}

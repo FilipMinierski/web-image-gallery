@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    {% block head %} {% endblock %}
+
+</head>
+<body>
+    <div id="navBar" class="navbar">
+        <a class="navbar-button" href="/">Home</a>
+        <!--a class="navbar-button" href="/gallery?query=&page=1">Gallery</a-->
+        <!--a class="navbar-button" href="/settings">Settings</a-->
+        <!--a class="navbar-button" href="/upload">Upload</a-->
+        <input class="search" type="text" id="searchInput" placeholder="Search...">
+        <button type="button" class="search", id="searchButton">Search</button>
+    </div>
+
+    {% block body %} {% endblock %}
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/vanilla.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+
+    {% block scripts %} {% endblock %}
+
+</body>
+</html>

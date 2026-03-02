@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "filename": "sample-cat1.png",
+        "tags": [
+            "image",
+            "cat",
+            "example_tag_a"
+        ],
+        "type": "image",
+        "score": 1
+    },
+    {
+        "id": 1,
+        "filename": "sample-cat2.png",
+        "tags": [
+            "image",
+            "cat",
+            "example_tag_a",
+            "example_tag_b"
+        ],
+        "type": "image",
+        "score": 0
+    },
+    {
+        "id": 2,
+        "filename": "sample-dog1.png",
+        "tags": [
+            "image",
+            "dog",
+            "example_tag_b"
+        ],
+        "type": "image",
+        "score": 0
+    },
+    {
+        "id": 3,
+        "filename": "VID-20260302-WA0001.mp4",
+        "tags": [
+            "video",
+            "cat",
+            "example_tag_a",
+            "example_tag_c"
+        ],
+        "type": "video",
+        "score": 0
+    },
+    {
+        "id": 4,
+        "filename": "IMG-20260212-WA0005.jpg",
+        "tags": [
+            "image",
+            "cat"
+        ],
+        "type": "image",
+        "score": 0
+    }
+]

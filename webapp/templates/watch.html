@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %} Post {{ post.id }} {% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+{% endblock %}
+
+{% block body %}
+
+<div class="player-container">
+    <div id="playerRoot">
+    
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/watch.js') }}"></script>
+{% endblock %}
