@@ -50,6 +50,29 @@
         "filename": "IMG-20260212-WA0005.jpg",
         "tags": [
             "image",
+            "cat",
+            "example_tag_b",
+            "example_tag_c"
+        ],
+        "type": "image",
+        "score": 0
+    },
+    {
+        "id": 5,
+        "filename": "IMG-20260303-WA0001.jpg",
+        "tags": [
+            "image",
+            "cat",
+            "example_tag_c"
+        ],
+        "type": "image",
+        "score": 1
+    },
+    {
+        "id": 6,
+        "filename": "IMG-20260303-WA0004.jpg",
+        "tags": [
+            "image",
             "cat"
         ],
         "type": "image",
